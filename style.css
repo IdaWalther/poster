@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: black;
+  font-size: 14px;
+}
+
+header {
+  background-color: #ae1116;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 30vh;
+}
+#navIcon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+#ninjaHuvud {
+  width: 150px;
+  position: absolute;
+  top: 21vh;
+}
+main {
+  padding: 10px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "astro astro ninja ninja nerd nerd"
+    "doctor doctor gitarr gitarr brand brand"
+    "clown clown police police fairy fairy"
+    "fotograf fotograf fotograf pt pt pt";
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+button {
+  background-color: #ae1116;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #f1f1f1;
+}
+
+#austronaut {
+  grid-area: astro;
+}
+#austronaut img {
+  background-color: #9bcddf;
+}
+#ninja {
+  grid-area: ninja;
+}
+#ninja img {
+  background-color: #ae1116;
+}
+#nerd {
+  grid-area: nerd;
+}
+#nerd img {
+  background-color: #8e96a4;
+}
+#doctor {
+  grid-area: doctor;
+}
+#doctor img {
+  background-color: #72d3f1;
+}
+#gitarr {
+  grid-area: gitarr;
+}
+#gitarr img {
+  background-color: #e8be84;
+}
+
+#brandman {
+  grid-area: brand;
+}
+
+#brandman img {
+  background-color: #fcd91d;
+}
+#clown {
+  grid-area: clown;
+}
+#clown img {
+  background-color: #684180;
+}
+#police {
+  grid-area: police;
+}
+#police img {
+  background-color: #283560;
+}
+#fairy {
+  grid-area: fairy;
+}
+#fairy img {
+  background-color: #616442;
+}
+#fotograf {
+  grid-area: fotograf;
+}
+#fotograf img {
+  background-color: #5d7a78;
+}
+#pt {
+  grid-area: pt;
+}
+#pt img {
+  background-color: #df7231;
+}
+
+.postCard {
+  background-color: black;
+  color: #f1f1f1;
+  padding: 10px;
+}
+
+.postCardBig {
+  background-color: #fff;
+  color: black;
+  margin:10px;
+}
+
+.postCardBig section {
+  padding: 10px;
+}
+
+.posterImg {
+  width: 100%;
+}
+
+footer {
+  margin: 20px 0 0 0;
+  background-color: #666;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  color: #f1f1f1;
+}
+
+a {
+  color: #f1f1f1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
